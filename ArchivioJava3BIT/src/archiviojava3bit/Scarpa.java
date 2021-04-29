@@ -13,8 +13,9 @@ public class Scarpa {
     private float prezzo;
     private boolean isScontato;
     private int quantita;
+    private String modello;
     
-    public Scarpa(String codice, String marca, String colore, float prezzo, boolean isScontato, int quantita) {
+    public Scarpa(String codice, String marca, String colore, float prezzo, boolean isScontato, int quantita, String modello) {
         this.codice=codice;
         this.marca=marca;
         this.colore=colore;
@@ -69,6 +70,14 @@ public class Scarpa {
     
     public void setQuantita() {
         this.quantita=quantita;
+    }
+    
+    public String getModello() {
+        return modello;
+    }
+    
+    public void setmodello() {
+        this.modello=modello;
     }
     
 }
