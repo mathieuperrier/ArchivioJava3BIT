@@ -80,4 +80,21 @@ public class Scarpa {
         this.modello=modello;
     }
     
+    public String toString() {
+        String s;
+        s = codice;
+        s += ",";
+        s += marca;
+        s += ",";
+        s += colore;
+        s += ",";
+        s += Float.toString(prezzo);
+        s += ",";
+        s += Boolean.toString(isScontato);
+        s += ",";
+        s += Integer.toString(quantita);
+        s += ",";
+        s += modello;
+        return s;
+    }
 }
