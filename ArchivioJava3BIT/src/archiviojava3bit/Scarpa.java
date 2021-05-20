@@ -23,62 +23,64 @@ public class Scarpa {
         this.isScontato=isScontato;
         this.quantita=quantita;
     }
-    
+
     public String getCodice() {
         return codice;
     }
-    
-    public void setCodice() {
-        this.codice=codice;
+
+    public void setCodice(String codice) {
+        this.codice = codice;
     }
-    
+
     public String getMarca() {
         return marca;
     }
-    
-    public void setMarca() {
-        this.marca=marca;
+
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
-    
+
     public String getColore() {
         return colore;
     }
-    
-    public void setColore() {
-        this.colore=colore;
+
+    public void setColore(String colore) {
+        this.colore = colore;
     }
-    
+
     public float getPrezzo() {
         return prezzo;
     }
-    
-    public void setPrezzo() {
-        this.prezzo=prezzo;
+
+    public void setPrezzo(float prezzo) {
+        this.prezzo = prezzo;
     }
-    
-    public boolean getIsScontato() {
+
+    public boolean isIsScontato() {
         return isScontato;
     }
-    
-    public void setIsScontato() {
-        this.isScontato=isScontato;
+
+    public void setIsScontato(boolean isScontato) {
+        this.isScontato = isScontato;
     }
-    
+
     public int getQuantita() {
         return quantita;
     }
-    
-    public void setQuantita() {
-        this.quantita=quantita;
+
+    public void setQuantita(int quantita) {
+        this.quantita = quantita;
     }
-    
+
     public String getModello() {
         return modello;
     }
-    
-    public void setmodello() {
-        this.modello=modello;
+
+    public void setModello(String modello) {
+        this.modello = modello;
     }
+    
+    
     
     public String toString() {
         String s;
